@@ -6,8 +6,8 @@ cd /d %~dp0
 
 REM Delete the .git directory and its contents
 rd /s /q .git
-rd /s /q README.md
-rd /s /q LICENSE
+del README.md
+del LICENSE
 
 REM Delete the batch script itself
 del "%~f0"
